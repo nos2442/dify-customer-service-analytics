@@ -1,0 +1,103 @@
+{
+  "state": "platform_refreshed_and_visually_confirmed_pending_model_manual_review",
+  "source_mode": "preset",
+  "batch_id": "preset_refresh_20261024_jan_jul",
+  "created_at": "2026-10-24T09:42:15.736411+08:00",
+  "parent_batch": "preset_deploy_20261020",
+  "source": {
+    "database": "chat",
+    "table": "records",
+    "columns": [
+      "id",
+      "time",
+      "records"
+    ],
+    "query_type": "single fixed SELECT snapshot"
+  },
+  "selection": {
+    "start_inclusive": "2024-01-01",
+    "end_exclusive": "2024-08-01"
+  },
+  "snapshot": {
+    "path": "data\\private\\analysis\\preset_refresh_20261024_jan_jul\\source_snapshot.jsonl",
+    "sha256": "7e7485c1291b88c1070c111e8c84475608e9dedb9ae9382c78d70960b29c9d18",
+    "rows": 44228
+  },
+  "parent_snapshot_sha256": "2c66a78de113cca1ae3538a75e4fa08d07eb3deffda9799d37e8dd0da5873cab",
+  "parent_results_sha256": "ed3428b6f6f60017b526b9debb53315114c273c26dddf37a9255d870b5783898",
+  "model_policy": "Reuse unchanged per-record tokens, topic IDs and SnowNLP scores from parent; no retraining or new cloud inference; recompute all five aggregates for selected period",
+  "model_artifacts": {
+    "dictionary.gensim": "379ca5681ba28914da5de622889a29044dc37a2501059d7efd0aae1d17b1c13f",
+    "lda.model": "1b80bcbff2048af7801212cfeae03f35aebc6c82229d47937fa53324fb52c52e",
+    "lda.model.expElogbeta.npy": "779ba36644986c22892a759b00267253a3fd2caf70f7cad826e63a8767db280d",
+    "lda.model.id2word": "8a8e412c699af6496bc1896ff26d248afdffd149a20bbdc0f0da49b29e777cf8",
+    "lda.model.state": "c394cb6fc509807df7655054cb79fbfb24796edc28f88225356ad66e65891079"
+  },
+  "reports": {
+    "cleaning": {
+      "raw_rows": 44228,
+      "retained_rows": 42860,
+      "excluded_rows": 1368,
+      "time_min": "2024-01-01T02:27:39.000",
+      "time_max": "2024-07-28T23:45:46.000"
+    }
+  },
+  "artifacts": {
+    "聊天密度小时分布.csv": {
+      "rows": 24,
+      "columns": [
+        "hour",
+        "count"
+      ],
+      "sha256": "5c14e2ce68065afb272aba9501f802e66e1763f8b5efe8e647bd54d816e38672"
+    },
+    "聊天密度月分布.csv": {
+      "rows": 7,
+      "columns": [
+        "month",
+        "count"
+      ],
+      "sha256": "46280ecec7b10fcaf5b20f91e46a3402f91c84c29f2b9c601df13505375a4d15"
+    },
+    "聊天词语频次数据.csv": {
+      "rows": 100,
+      "columns": [
+        "word",
+        "count"
+      ],
+      "sha256": "b3dfeebcc3533727fded3f5bb450a50e5d6341c2e730a26d59dd2933a1f78533"
+    },
+    "月度主题趋势数据.csv": {
+      "rows": 21,
+      "columns": [
+        "month",
+        "topic",
+        "count"
+      ],
+      "sha256": "4f3a88ac374d9ea05cafa7b58e8accad0d5a9d6ac61d8d3a83ec54e71bed4e0d"
+    },
+    "情感分布.csv": {
+      "rows": 3,
+      "columns": [
+        "sentiment",
+        "count"
+      ],
+      "sha256": "65e48c420129966a3e4a10a009cffdae11376aadf3902f3355dab6ab0874c2d7"
+    }
+  },
+  "sentiment_counts": {
+    "负面": 39046,
+    "正面": 2348,
+    "中性": 1466
+  },
+  "topic_counts": {
+    "0": 9657,
+    "1": 18685,
+    "2": 14518
+  },
+  "manual_topic_and_sentiment_review_completed": false,
+  "online_wechat_or_synthetic_rows_included": false,
+  "implementation_sha256": "dc40379f93cc350492233ab178cbded9f294b8f4be0a6e8cbcfee7c5ab956562",
+  "platform_acceptance": "evidence/20261024/mofang_refresh/acceptance.json",
+  "platform_panel_id": "9ca8233d-cdb7-11f1-b77c-57a8412ac418"
+}

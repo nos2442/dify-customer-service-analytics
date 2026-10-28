@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cherry Studio
+Exec=env APPDIR=/home/dify/apps/cherry-studio/squashfs-root /home/dify/apps/cherry-studio/squashfs-root/AppRun --disable-setuid-sandbox %U
+Terminal=false
+Type=Application
+Icon=/home/software/icon.png
+StartupWMClass=CherryStudio
+Categories=Utility;

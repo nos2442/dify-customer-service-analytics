@@ -1,0 +1,203 @@
+{
+  "state": "generated_pending_manual_review",
+  "source_mode": "preset",
+  "batch_id": "deploy_20261020",
+  "started_at": "2026-10-20T10:55:18.148253+08:00",
+  "finished_at": "2026-10-20T11:01:22.764658+08:00",
+  "source": {
+    "database": "chat",
+    "table": "records",
+    "columns": [
+      "id",
+      "time",
+      "records"
+    ],
+    "query_type": "single fixed SELECT snapshot"
+  },
+  "snapshot": {
+    "path": "data\\private\\analysis\\preset_deploy_20261020\\source_snapshot.jsonl",
+    "sha256": "2c66a78de113cca1ae3538a75e4fa08d07eb3deffda9799d37e8dd0da5873cab",
+    "rows": 84252
+  },
+  "reports": {
+    "cleaning": {
+      "raw_rows": 84252,
+      "excluded_null_text": 2616,
+      "excluded_blank_text": 0,
+      "excluded_invalid_time": 0,
+      "retained_rows": 81636,
+      "duplicate_text_rows_kept": 14774,
+      "duplicate_id_rows_kept": 0,
+      "missing_id_rows_kept": 0,
+      "time_min": "2023-03-01T00:05:18",
+      "time_max": "2024-08-28T23:51:04",
+      "excluded_rows": 2616
+    },
+    "tokens": {
+      "rows": 81636,
+      "empty_token_rows": 0,
+      "token_count": 1087117
+    },
+    "topics": {
+      "assigned_rows": 81636,
+      "unassigned_rows": 0,
+      "dictionary_size": 604,
+      "parameters": {
+        "num_topics": 3,
+        "random_state": 42,
+        "passes": 10,
+        "iterations": 100,
+        "update_every": 0,
+        "eval_every": null
+      },
+      "keywords": {
+        "0": [
+          "吗",
+          "等",
+          "我",
+          "麻烦",
+          "换",
+          "在线",
+          "太",
+          "能",
+          "想",
+          "快递"
+        ],
+        "1": [
+          "吗",
+          "我",
+          "没",
+          "买",
+          "麻烦",
+          "单",
+          "想",
+          "用",
+          "这",
+          "能"
+        ],
+        "2": [
+          "吗",
+          "能",
+          "我",
+          "不",
+          "用",
+          "买",
+          "麻烦",
+          "好",
+          "想",
+          "查"
+        ]
+      }
+    },
+    "sentiment": {
+      "scored_rows": 81636,
+      "failed_rows": 0,
+      "failure_types": {},
+      "negative_below": 0.4,
+      "positive_above": 0.6,
+      "threshold_origin": "Project provisional choice, not supplied by course; 0.4 and 0.6 are neutral."
+    }
+  },
+  "preprocessing": {
+    "rule_version": "1",
+    "jieba_HMM": false,
+    "token_policy": "lowercase; remove stopwords and tokens without alphabetic characters; preserve negation; do not delete duplicate rows",
+    "stopwords_sha256": "b574e6ee74afe373b82f628acdf97606e7a1b8a61b68ac993edebdea1a6855c2"
+  },
+  "csv_contract": {
+    "origin": "Project provisional supplement; course headers and dashboard mapping not yet verified",
+    "encoding": "utf-8-sig",
+    "files": {
+      "聊天密度小时分布.csv": [
+        "hour",
+        "count"
+      ],
+      "聊天密度月分布.csv": [
+        "month",
+        "count"
+      ],
+      "聊天词语频次数据.csv": [
+        "word",
+        "count"
+      ],
+      "月度主题趋势数据.csv": [
+        "month",
+        "topic",
+        "count"
+      ],
+      "情感分布.csv": [
+        "sentiment",
+        "count"
+      ]
+    }
+  },
+  "artifacts": {
+    "聊天密度小时分布.csv": {
+      "rows": 24,
+      "columns": [
+        "hour",
+        "count"
+      ],
+      "sha256": "d09a949f6193933aeb7ee4d57891b0f2896dae238701e0aee3e87d318f812ade"
+    },
+    "聊天密度月分布.csv": {
+      "rows": 18,
+      "columns": [
+        "month",
+        "count"
+      ],
+      "sha256": "8692881040fc230271d517bed12b4b5292c9f66b87536a8d69922364520940f4"
+    },
+    "聊天词语频次数据.csv": {
+      "rows": 100,
+      "columns": [
+        "word",
+        "count"
+      ],
+      "sha256": "dee83965b696442c6fd2c521024d10a87dd7b86355f17cefd27ddd363f02ade4"
+    },
+    "月度主题趋势数据.csv": {
+      "rows": 54,
+      "columns": [
+        "month",
+        "topic",
+        "count"
+      ],
+      "sha256": "99ed9eab5b57b217359f585231e2c4668c22cba70a09294bac691886fd06e613"
+    },
+    "情感分布.csv": {
+      "rows": 3,
+      "columns": [
+        "sentiment",
+        "count"
+      ],
+      "sha256": "cc4207b2cc297fd0f4bc3d1483250dd5d80fdf9ebc166e4ca30a0d70dbf51ff8"
+    }
+  },
+  "model_artifacts": {
+    "dictionary.gensim": "379ca5681ba28914da5de622889a29044dc37a2501059d7efd0aae1d17b1c13f",
+    "lda.model": "1b80bcbff2048af7801212cfeae03f35aebc6c82229d47937fa53324fb52c52e",
+    "lda.model.expElogbeta.npy": "779ba36644986c22892a759b00267253a3fd2caf70f7cad826e63a8767db280d",
+    "lda.model.id2word": "8a8e412c699af6496bc1896ff26d248afdffd149a20bbdc0f0da49b29e777cf8",
+    "lda.model.state": "c394cb6fc509807df7655054cb79fbfb24796edc28f88225356ad66e65891079"
+  },
+  "implementation_sha256": "02b4e9aff141903949cd14445dd2524fa2a3da2dbb82411c220badd95a660005",
+  "versions": {
+    "python": "3.10.9",
+    "numpy": "1.24.4",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "gensim": "4.4.0",
+    "jieba": "0.42.1",
+    "snownlp": "0.12.3",
+    "PyMySQL": "1.2.3",
+    "python-dotenv": "1.2.4"
+  },
+  "pending_acceptance": [
+    "T11 model-assisted rule review",
+    "topic naming and K review",
+    "sentiment manual review",
+    "course CSV field mapping",
+    "actual dashboard import and CP5 verification"
+  ]
+}

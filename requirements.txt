@@ -1,0 +1,18 @@
+# 课程硬锁版本；其余依赖在实际安装成功后导出完整锁定清单。
+numpy==1.24.4
+pandas==2.2.3
+matplotlib==3.5.2
+wordcloud==1.9.4
+scikit-learn==1.7.2
+fastmcp==2.13.1
+Flask
+wechatpy
+PyMySQL
+gensim
+pyLDAvis
+tqdm
+jieba
+snownlp
+jupyterlab
+ipykernel
+python-dotenv

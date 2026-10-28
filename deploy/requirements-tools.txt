@@ -1,0 +1,4 @@
+# 仅用于虚拟机安装介质和SSH管理，与课程业务依赖分开声明。
+pycdlib
+paramiko
+pykickstart

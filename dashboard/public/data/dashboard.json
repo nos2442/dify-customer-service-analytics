@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "batch": {
+    "id": "preset_refresh_20261024_jan_jul",
+    "sourceMode": "preset",
+    "generatedAt": "2026-10-28T11:31:03.446250+08:00",
+    "periodStart": "2024-01-01",
+    "periodEnd": "2024-07-28",
+    "rawRows": 44228,
+    "excludedRows": 1368,
+    "retainedRows": 42860,
+    "lastMonthPartial": true,
+    "sourceLabel": "课程预置聊天记录"
+  },
+  "monthly": [
+    {
+      "month": "2024-01",
+      "count": 6153
+    },
+    {
+      "month": "2024-02",
+      "count": 6149
+    },
+    {
+      "month": "2024-03",
+      "count": 6064
+    },
+    {
+      "month": "2024-04",
+      "count": 6159
+    },
+    {
+      "month": "2024-05",
+      "count": 6115
+    },
+    {
+      "month": "2024-06",
+      "count": 6211
+    },
+    {
+      "month": "2024-07",
+      "count": 6009
+    }
+  ],
+  "hourly": [
+    {
+      "hour": 0,
+      "count": 227
+    },
+    {
+      "hour": 1,
+      "count": 222
+    },
+    {
+      "hour": 2,
+      "count": 236
+    },
+    {
+      "hour": 3,
+      "count": 212
+    },
+    {
+      "hour": 4,
+      "count": 220
+    },
+    {
+      "hour": 5,
+      "count": 418
+    },
+    {
+      "hour": 6,
+      "count": 874
+    },
+    {
+      "hour": 7,
+      "count": 1464
+    },
+    {
+      "hour": 8,
+      "count": 2129
+    },
+    {
+      "hour": 9,
+      "count": 2897
+    },
+    {
+      "hour": 10,
+      "count": 3134
+    },
+    {
+      "hour": 11,
+      "count": 2813
+    },
+    {
+      "hour": 12,
+      "count": 2417
+    },
+    {
+      "hour": 13,
+      "count": 2506
+    },
+    {
+      "hour": 14,
+      "count": 2932
+    },
+    {
+      "hour": 15,
+      "count": 3073
+    },
+    {
+      "hour": 16,
+      "count": 2963
+    },
+    {
+      "hour": 17,
+      "count": 2557
+    },
+    {
+      "hour": 18,
+      "count": 2178
+    },
+    {
+      "hour": 19,
+      "count": 1917
+    },
+    {
+      "hour": 20,
+      "count": 2193
+    },
+    {
+      "hour": 21,
+      "count": 2303
+    },
+    {
+      "hour": 22,
+      "count": 1902
+    },
+    {
+      "hour": 23,
+      "count": 1073
+    }
+  ],
+  "words": [
+    {
+      "word": "吗",
+      "count": 25184
+    },
+    {
+      "word": "我",
+      "count": 14045
+    },
+    {
+      "word": "能",
+      "count": 10615
+    },
+    {
+      "word": "麻烦",
+      "count": 9053
+    },
+    {
+      "word": "买",
+      "count": 8804
+    },
+    {
+      "word": "不",
+      "count": 7645
+    },
+    {
+      "word": "用",
+      "count": 7548
+    },
+    {
+      "word": "想",
+      "count": 7503
+    },
+    {
+      "word": "单",
+      "count": 7253
+    },
+    {
+      "word": "没",
+      "count": 6393
+    },
+    {
+      "word": "等",
+      "count": 6210
+    },
+    {
+      "word": "这",
+      "count": 5807
+    },
+    {
+      "word": "查",
+      "count": 5742
+    },
+    {
+      "word": "好",
+      "count": 5194
+    },
+    {
+      "word": "急",
+      "count": 4994
+    },
+    {
+      "word": "还要",
+      "count": 4801
+    },
+    {
+      "word": "回复",
+      "count": 4789
+    },
+    {
+      "word": "尽快",
+      "count": 4789
+    },
+    {
+      "word": "在线",
+      "count": 4775
+    },
+    {
+      "word": "帮帮忙",
+      "count": 4644
+    },
+    {
+      "word": "问",
+      "count": 4475
+    },
+    {
+      "word": "客服",
+      "count": 4468
+    },
+    {
+      "word": "有",
+      "count": 4338
+    },
+    {
+      "word": "天",
+      "count": 4324
+    },
+    {
+      "word": "咨询",
+      "count": 4217
+    },
+    {
+      "word": "不好意思",
+      "count": 4205
+    },
+    {
+      "word": "打扰",
+      "count": 4205
+    },
+    {
+      "word": "不能",
+      "count": 3748
+    },
+    {
+      "word": "时候",
+      "count": 3691
+    },
+    {
+      "word": "要",
+      "count": 3653
+    },
+    {
+      "word": "多少",
+      "count": 3629
+    },
+    {
+      "word": "什么",
+      "count": 3475
+    },
+    {
+      "word": "件",
+      "count": 3192
+    },
+    {
+      "word": "给",
+      "count": 3178
+    },
+    {
+      "word": "退",
+      "count": 3149
+    },
+    {
+      "word": "啊",
+      "count": 3089
+    },
+    {
+      "word": "换",
+      "count": 2941
+    },
+    {
+      "word": "快递",
+      "count": 2864
+    },
+    {
+      "word": "码",
+      "count": 2843
+    },
+    {
+      "word": "显示",
+      "count": 2700
+    },
+    {
+      "word": "多",
+      "count": 2697
+    },
+    {
+      "word": "订单",
+      "count": 2689
+    },
+    {
+      "word": "是不是",
+      "count": 2659
+    },
+    {
+      "word": "空气",
+      "count": 2314
+    },
+    {
+      "word": "差",
+      "count": 2179
+    },
+    {
+      "word": "服",
+      "count": 2118
+    },
+    {
+      "word": "优惠券",
+      "count": 2085
+    },
+    {
+      "word": "一直",
+      "count": 2083
+    },
+    {
+      "word": "多久",
+      "count": 2033
+    },
+    {
+      "word": "大",
+      "count": 1972
+    },
+    {
+      "word": "看",
+      "count": 1949
+    },
+    {
+      "word": "但是",
+      "count": 1933
+    },
+    {
+      "word": "太",
+      "count": 1926
+    },
+    {
+      "word": "运动鞋",
+      "count": 1911
+    },
+    {
+      "word": "昨天",
+      "count": 1862
+    },
+    {
+      "word": "收到",
+      "count": 1849
+    },
+    {
+      "word": "物流",
+      "count": 1842
+    },
+    {
+      "word": "怎么",
+      "count": 1835
+    },
+    {
+      "word": "合适",
+      "count": 1829
+    },
+    {
+      "word": "发货",
+      "count": 1778
+    },
+    {
+      "word": "哪",
+      "count": 1776
+    },
+    {
+      "word": "没收",
+      "count": 1672
+    },
+    {
+      "word": "冲锋衣",
+      "count": 1661
+    },
+    {
+      "word": "包装",
+      "count": 1535
+    },
+    {
+      "word": "到底",
+      "count": 1531
+    },
+    {
+      "word": "收纳",
+      "count": 1499
+    },
+    {
+      "word": "退款",
+      "count": 1484
+    },
+    {
+      "word": "地址",
+      "count": 1482
+    },
+    {
+      "word": "儿童",
+      "count": 1480
+    },
+    {
+      "word": "发出",
+      "count": 1470
+    },
+    {
+      "word": "挺",
+      "count": 1436
+    },
+    {
+      "word": "这边",
+      "count": 1419
+    },
+    {
+      "word": "猫",
+      "count": 1402
+    },
+    {
+      "word": "包裹",
+      "count": 1395
+    },
+    {
+      "word": "改",
+      "count": 1373
+    },
+    {
+      "word": "不到",
+      "count": 1354
+    },
+    {
+      "word": "这次",
+      "count": 1353
+    },
+    {
+      "word": "比较",
+      "count": 1322
+    },
+    {
+      "word": "已经",
+      "count": 1313
+    },
+    {
+      "word": "里面",
+      "count": 1285
+    },
+    {
+      "word": "今天",
+      "count": 1281
+    },
+    {
+      "word": "尺寸",
+      "count": 1271
+    },
+    {
+      "word": "问题",
+      "count": 1249
+    },
+    {
+      "word": "发",
+      "count": 1242
+    },
+    {
+      "word": "花",
+      "count": 1238
+    },
+    {
+      "word": "一次",
+      "count": 1230
+    },
+    {
+      "word": "加湿器",
+      "count": 1230
+    },
+    {
+      "word": "够",
+      "count": 1222
+    },
+    {
+      "word": "出库",
+      "count": 1205
+    },
+    {
+      "word": "滤芯",
+      "count": 1171
+    },
+    {
+      "word": "家里",
+      "count": 1169
+    },
+    {
+      "word": "炸锅",
+      "count": 1143
+    },
+    {
+      "word": "电饭煲",
+      "count": 1142
+    },
+    {
+      "word": "寄回",
+      "count": 1135
+    },
+    {
+      "word": "按摩",
+      "count": 1134
+    },
+    {
+      "word": "颈椎",
+      "count": 1134
+    },
+    {
+      "word": "仪",
+      "count": 1125
+    },
+    {
+      "word": "扫地",
+      "count": 1125
+    },
+    {
+      "word": "机器人",
+      "count": 1125
+    },
+    {
+      "word": "元",
+      "count": 1100
+    }
+  ],
+  "topics": [
+    {
+      "month": "2024-01",
+      "topic": 0,
+      "count": 1357
+    },
+    {
+      "month": "2024-01",
+      "topic": 1,
+      "count": 2672
+    },
+    {
+      "month": "2024-01",
+      "topic": 2,
+      "count": 2124
+    },
+    {
+      "month": "2024-02",
+      "topic": 0,
+      "count": 1348
+    },
+    {
+      "month": "2024-02",
+      "topic": 1,
+      "count": 2693
+    },
+    {
+      "month": "2024-02",
+      "topic": 2,
+      "count": 2108
+    },
+    {
+      "month": "2024-03",
+      "topic": 0,
+      "count": 1392
+    },
+    {
+      "month": "2024-03",
+      "topic": 1,
+      "count": 2632
+    },
+    {
+      "month": "2024-03",
+      "topic": 2,
+      "count": 2040
+    },
+    {
+      "month": "2024-04",
+      "topic": 0,
+      "count": 1417
+    },
+    {
+      "month": "2024-04",
+      "topic": 1,
+      "count": 2643
+    },
+    {
+      "month": "2024-04",
+      "topic": 2,
+      "count": 2099
+    },
+    {
+      "month": "2024-05",
+      "topic": 0,
+      "count": 1366
+    },
+    {
+      "month": "2024-05",
+      "topic": 1,
+      "count": 2706
+    },
+    {
+      "month": "2024-05",
+      "topic": 2,
+      "count": 2043
+    },
+    {
+      "month": "2024-06",
+      "topic": 0,
+      "count": 1436
+    },
+    {
+      "month": "2024-06",
+      "topic": 1,
+      "count": 2717
+    },
+    {
+      "month": "2024-06",
+      "topic": 2,
+      "count": 2058
+    },
+    {
+      "month": "2024-07",
+      "topic": 0,
+      "count": 1341
+    },
+    {
+      "month": "2024-07",
+      "topic": 1,
+      "count": 2622
+    },
+    {
+      "month": "2024-07",
+      "topic": 2,
+      "count": 2046
+    }
+  ],
+  "sentiment": [
+    {
+      "sentiment": "负面",
+      "count": 39046
+    },
+    {
+      "sentiment": "中性",
+      "count": 1466
+    },
+    {
+      "sentiment": "正面",
+      "count": 2348
+    }
+  ],
+  "topicLabels": [
+    {
+      "id": 0,
+      "label": "质量与收货异常倾向"
+    },
+    {
+      "id": 1,
+      "label": "订单处理与规格咨询倾向"
+    },
+    {
+      "id": 2,
+      "label": "寄回运费与优惠咨询倾向"
+    }
+  ],
+  "provenance": {
+    "sourceDir": "analysis/output/preset_refresh_20261024_jan_jul",
+    "manifestSha256": "9a8e18782e5b4d78e485d755054df22c2155591b0786841cb4a5b298d6ff631d",
+    "files": [
+      {
+        "name": "聊天密度月分布.csv",
+        "sha256": "46280ecec7b10fcaf5b20f91e46a3402f91c84c29f2b9c601df13505375a4d15",
+        "rows": 7
+      },
+      {
+        "name": "聊天密度小时分布.csv",
+        "sha256": "5c14e2ce68065afb272aba9501f802e66e1763f8b5efe8e647bd54d816e38672",
+        "rows": 24
+      },
+      {
+        "name": "聊天词语频次数据.csv",
+        "sha256": "b3dfeebcc3533727fded3f5bb450a50e5d6341c2e730a26d59dd2933a1f78533",
+        "rows": 100
+      },
+      {
+        "name": "月度主题趋势数据.csv",
+        "sha256": "4f3a88ac374d9ea05cafa7b58e8accad0d5a9d6ac61d8d3a83ec54e71bed4e0d",
+        "rows": 21
+      },
+      {
+        "name": "情感分布.csv",
+        "sha256": "65e48c420129966a3e4a10a009cffdae11376aadf3902f3355dab6ab0874c2d7",
+        "rows": 3
+      }
+    ]
+  },
+  "notes": [
+    "课程预置聊天记录的离线批次快照，不包含微信公众号新增消息。",
+    "小时分布为整个批次累计，按0至23时排列。",
+    "词频为分词出现次数，不等于聊天记录条数。",
+    "主题为LDA混合分组，非互斥业务分类。",
+    "情感为SnowNLP模型标签，不直接解释为投诉率或满意度。",
+    "末月实际截至2024-07-28，未满自然月。"
+  ]
+}

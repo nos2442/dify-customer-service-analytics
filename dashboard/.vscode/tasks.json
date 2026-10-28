@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "启动聊天大屏",
+      "type": "shell",
+      "command": "${workspaceFolder}/start.cmd",
+      "args": ["dev"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "构建聊天大屏",
+      "type": "shell",
+      "command": "${workspaceFolder}/start.cmd",
+      "args": ["build"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "核验图表计数",
+      "type": "shell",
+      "command": "${workspaceFolder}/start.cmd",
+      "args": ["test"],
+      "problemMatcher": []
+    }
+  ]
+}
